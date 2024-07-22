@@ -12,7 +12,7 @@ Welcome to the repository of Frontend Mini Projects! This collection includes va
    * Toggle between light and dark themes.  
    * Save theme preference in local storage.
 
-  ## Some Screenshots 
+## Some Screenshots 
 
 ![SS-1](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Theme%20Toggle/SS.png "width = 200px")  
 
