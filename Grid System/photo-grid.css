@@ -1,0 +1,25 @@
+.photo-grid{
+    display: grid;
+    gap: 1rem;
+
+    grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+    grid-auto-rows: 240px;
+}
+
+h1{
+    text-align: center;
+    font-size: 4vw;
+}
+
+@media screen and (min-width: 600px){
+    h1{
+        font-size: 10vh;
+    }
+    .card-tall{
+        gridd-row: span 2 / auto;
+    }
+    
+    .card-wide{
+        grid-column: span 2/ auto
+    }
+}

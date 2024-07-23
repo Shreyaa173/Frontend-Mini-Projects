@@ -1,0 +1,17 @@
+.grid{
+    display: grid;
+    gap: 1rem;
+    /* too much of code */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+
+    /* cleaner code but size of grid is small */
+    grid-template-columns: repeat(1fr,20);
+
+    /* better sizing but overflow */
+    grid-template-columns: repeat(20,minmax(240px , 1fr));
+
+    /* implicit grid */
+    grid-template-columns: repeat(auto-fit, minmax(240px , 1fr));
+
+
+}
