@@ -3,7 +3,7 @@
 Welcome to the repository of Frontend Mini Projects! This collection includes various small-scale projects aimed at enhancing frontend development skills. Each project focuses on different aspects of frontend development, including HTML, CSS, JavaScript.
 
 # Projects
-### Project-1 - Theme Toggle
+## Project-1 - Theme Toggle
 - A theme toggle feature that allows users to switch between light and dark modes.
 
 - **Technologies used:** HTML, CSS, JavaScript.  
@@ -12,7 +12,7 @@ Welcome to the repository of Frontend Mini Projects! This collection includes va
    * Toggle between light and dark themes.  
    * Save theme preference in local storage.
 
-## Some Screenshots 
+### Some Screenshots 
 
 ![SS-1](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Theme%20Toggle/SS.png "width = 200px")  
 
@@ -20,7 +20,7 @@ Welcome to the repository of Frontend Mini Projects! This collection includes va
 
 ![SS-1](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Theme%20Toggle/SS_2.png "width = 200px")  
 
-### Project-2 - Grid System
+## Project-2 - Grid System
 - Understanding the grid system. 
 
 - **Technologies used:** HTML, CSS.  
@@ -29,7 +29,7 @@ Welcome to the repository of Frontend Mini Projects! This collection includes va
    * Responsive grids.   
    * Animations.
 
-## Some Screenshots 
+### Some Screenshots 
 
 [![SR-3](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Grid%20System/SS-3.png)](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Grid%20System/Screen%20Recording%202024-07-23%20112648.mp4)  
 
