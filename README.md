@@ -19,3 +19,21 @@ Welcome to the repository of Frontend Mini Projects! This collection includes va
 ![SS-1](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Theme%20Toggle/SS_1.png "width = 200px")  
 
 ![SS-1](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Theme%20Toggle/SS_2.png "width = 200px")  
+
+### Project-2 - Grid System
+- Understanding the grid system. 
+
+- **Technologies used:** HTML, CSS.  
+
+* **Features:**  
+   * Responsive grids.   
+   * Animations.
+
+## Some Screenshots 
+
+[![SR-3](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Grid%20System/SS-3.png)](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Grid%20System/Screen%20Recording%202024-07-23%20112648.mp4)  
+
+[![SR-2](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Grid%20System/SS-2.png)](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Grid%20System/Animated%20grid%20and%202%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%202024-07-23%2011-19-44.mp4)  
+
+![SS](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Grid%20System/SS.png)  
+
