@@ -33,7 +33,7 @@ Welcome to the repository of Frontend Mini Projects! This collection includes va
 
 [![SR-3](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Grid%20System/SS-3.png)](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Grid%20System/Screen%20Recording%202024-07-23%20112648.mp4)  
 
-[![SR-2](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Grid%20System/SS-2.png)](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Grid%20System/Animated%20grid%20and%202%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%202024-07-23%2011-19-44.mp4)  
+[![SR](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Grid%20System/SS.png)](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Grid%20System/Animated%20grid%20and%202%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%202024-07-23%2011-19-44.mp4)  
 
-![SS](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Grid%20System/SS.png)  
+![SS-2](https://github.com/Shreyaa173/Frontend-Mini-Projects/blob/master/Grid%20System/SS-2.png)  
 
