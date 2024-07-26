@@ -1,0 +1,150 @@
+body{
+    height: 100%;
+    width: 99%;
+    background-color:bisque;
+    overflow-x: hidden;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar{
+    width: 0.3rem;
+}
+
+body::-webkit-scrollbar-track{
+    background-color:bisque;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: bisque;
+}
+
+main{
+    margin-left: 6rem;
+}
+
+h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 4vw;
+}
+
+.navbar{
+    width: 5rem;
+    height: 105vh;
+    background-color: chocolate;
+    position: fixed;
+    margin-top: -52px;
+    transition: width 200ms ease;
+}    
+
+.navbar .nav-list{
+    list-style: none;  
+    flex-direction: column; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .nav-item{
+    width: 17rem;
+    font-size: 2rem;
+}
+
+.navbar i{
+    color: black;
+    margin-right: 3rem;
+}
+.nav-item:first-child{
+    margin-top: 1rem;
+}
+
+.nav-item:last-child{
+    position: absolute;
+    bottom: 15px;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-text{
+    display: none;
+    font-size: 1.5rem;
+}
+
+.navbar:hover{
+    width: 16rem;
+}
+
+.navbar:hover .nav-item{
+    margin-right: 4rem;
+}
+
+.navbar:hover .icon{
+    margin-right: 2rem;
+}
+
+.navbar:hover .nav-text{
+    display: block;
+}
+
+.nav-item:hover{
+    box-shadow: 0 0 4px rgba(255, 177, 139, 0.8);
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+      bottom: 0;
+      width: 100vh;
+      height: 5rem;
+    }
+  
+    .navbar .nav-list {
+      flex-direction: row;
+    }
+
+    .navbar .nav-list i{
+        margin-left: 1rem;  
+        bottom: 10px;
+    }
+
+    .navbar:hover{
+        width: 100vh;
+    }
+
+    .navbar:hover .icon{
+        position: fixed;
+    }    
+
+    .navbar:hover .nav-item .nav-text{
+        display: none;
+    }
+
+    main {
+      margin: 0;
+    }
+  }
+  
+  /* Large screens */
+  @media only screen and (min-width: 600px) {
+    .navbar {
+      top: 2rem;
+      width: 5rem;
+      height: 105vh;
+    }
+  
+    .navbar:hover {
+      width: 16rem;
+    } 
+  
+    .navbar:hover .nav-text {
+      display: inline;
+    }
+  }
