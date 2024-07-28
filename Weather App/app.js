@@ -6,7 +6,6 @@ const weatherIcon = document.querySelector(".weather-icon");  
 const weather = document.querySelector(".weather");
 const error = document.querySelector(".error");   
 
-
 async function checkWeather(city) {
     try {
         const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
@@ -18,6 +17,7 @@ async function checkWeather(city) {
 
 
             document.querySelector(".city").textContent = data.name;
+            document.querySelector(".condition").textContent = data.weather[0].main;
             document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "&#x2103;";
             document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
             document.querySelector(".wind").innerHTML = data.wind.speed   
@@ -48,7 +48,13 @@ async function checkWeather(city) {
                 break;  
             case "Tornado":
                 weatherIcon.src = "./Assests/tornado.png";
-                break;           
+                break;   
+            case "Haze":
+                weatherIcon.src = "./Assests/haze.png";
+                break;   
+            case "Hail":
+                weatherIcon.src = "./Assests/hail.png";
+                break;      
             default:
                 // Handle unexpected weather conditions (optional)
                 break;
@@ -62,6 +68,14 @@ async function checkWeather(city) {
         }
         }
 
-        searchBtn.addEventListener("click", () => {
-        checkWeather(searchBox.value);
-        });
+searchBtn.addEventListener("click", () => {
+    checkWeather(searchBox.value);
+    searchBox.value = ''
+});
+
+searchBox.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+      checkWeather(searchBox.value);
+      searchBox.value = ''
+    }
+  });
