@@ -160,4 +160,10 @@ body{
         font-size: 4vw;
     }
 
+    .details{
+        padding: 0;
+        margin-left: -20px;
+        margin-top: 10px
+    }
+
 }
