@@ -48,7 +48,7 @@ body{
 }
 
 .search i{
-    font-size: 2rem;    
+    font-size: 1.5rem;    
     cursor: pointer;
     color: black;
 }
@@ -101,4 +101,63 @@ body{
     font-size: 14px;
     margin-top: 10px;
     display: none;
+}
+
+@media only screen and (max-width: 500px){
+    .card{
+        width: 80%;
+    }
+
+    .search input{
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search button{
+        background-color: aliceblue;
+        border: none;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    
+    .search i{
+        font-size: 4vw;    
+        cursor: pointer;
+        color: black;
+    }
+
+    .weather-icon{
+        height: 40vw;
+    }
+    
+    .weather h1{
+        font-size: 9vw;
+        font-weight: 500;
+    }
+    
+    .weather h2{
+        font-size: 5vw;
+        font-weight: 500;
+    }
+
+    .details{
+        gap: 4vw;
+    }
+    
+    .col img{
+        width: 7vw;
+    }
+
+    .humidity, .wind{
+        font-size: 4.5vw;
+    }
+
+    .details .name{
+        font-size: 4vw;
+    }
+
 }
