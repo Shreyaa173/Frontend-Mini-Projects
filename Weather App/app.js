@@ -24,6 +24,11 @@ async function checkWeather(city) {
         + "km/hr";
 
             const weatherType = data.weather[0].main;
+
+            // switch(temp){
+
+            // }
+
             switch (weatherType) {
             case "Clouds":
                 weatherIcon.src = "./Assests/cloudySun.png";
@@ -54,7 +59,13 @@ async function checkWeather(city) {
                 break;   
             case "Hail":
                 weatherIcon.src = "./Assests/hail.png";
-                break;      
+                break; 
+            case "Smoke":
+                weatherIcon.src = "./Assests/smoke.png";
+                break;          
+            case "Thunderstorm":
+                weatherIcon.src = "./Assests/thunder.png";
+                break;          
             default:
                 // Handle unexpected weather conditions (optional)
                 break;
